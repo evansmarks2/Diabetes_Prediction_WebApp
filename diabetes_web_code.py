@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 #Loading the saved models
-diabetes_model = pickle.load(open("C:\\Users\\hp\\Desktop\\Diabetes_Prediction_model\\diabetes_model.sav",'rb'),errors='ignore',encoding='latin1')
+diabetes_model = pickle.load(open("diabetes_model.sav",'rb'),errors='ignore',encoding='latin1')
 
 
 with st.sidebar:
